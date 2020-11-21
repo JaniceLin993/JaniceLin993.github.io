@@ -1,0 +1,9 @@
+.jumbotron{
+    color:darkslateblue;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5aaac8f445776e80e3f990e4/1522354056577-MEG0UPUT4V2Z6EHYQ0JM/ke17ZwdGBToddI8pDm48kBNRt0cg4WAanfWojlHLplx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US6IfA3z_hZ3gTROHXzj40oiauNtBL88ZRQhKg2xy4MQPt_AAiqPvsV6TvkS6kIncw/image-asset.jpeg?format=1000w");
+    background-position: 50% 50%;/*background-position:center 代表出現整張圖正中央*//*10% 50%前為寬後為高 數字越大越高越左 那這張圖因為剛好符合大小所以前面的寬數值沒差*/
+    height: 50vh;/*vh: viewport height視窗高度*/
+    /*background-repeat:no-repeat;*//*底色會跑出來 在拉來拉去時 但因我找的圖片很寬所以沒用*/
+    
+    background-size:cover;/*至少和整個網頁一樣寬 隨螢幕大小變化 有cover no-repeat就沒用*/
+}
